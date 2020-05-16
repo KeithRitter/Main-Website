@@ -19,10 +19,17 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 a {
-    color: #44a4cd;
+    color: #ffff;
+    font-size: 2vh;
+    font-family: 'Source Sans Pro', sans-serif !important;
+}
+
+a:hover{
+    color: #ffff;
 }
 
 .shadow {
@@ -31,4 +38,5 @@ a {
 
 .section-container {
     padding: 30px;
+    font-family: 'Source Sans Pro', sans-serif;
 }
