@@ -15,3 +15,11 @@
     margin-left: 3px;
     border-radius: 4px;
 }
+
+.mobileNav {
+    color: #fff;
+    font-size: 1em;
+    display: none;
+    margin-left: 1vh;
+    margin-right: 3vh;
+}
