@@ -1,14 +1,14 @@
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-</head>
+<app-navbar id="navbar" 
+  class="navbar navbar-dark fixed-top bg-dark">
+</app-navbar>
 
 <div class="container-fluid">
-  <div class="row" id="navbarContainer">
-    <app-navbar id="navbar" class="navbar navbar-dark fixed-top bg-dark"></app-navbar>
-  </div>
   <div class="row" id="mainContent">
-    <app-sidebar id="sidebar" class="col-sm-1 d-none d-sm-block sidebar"></app-sidebar>
-    <div class="col-sm-3 ml-sm-auto col-md-11 pt-3" id="dashboard">
+    <app-sidebar id="sidebar" 
+      class="col-sm-1 d-none d-sm-block sidebar">
+    </app-sidebar>
+
+    <div class="col-sm-9 ml-sm-auto col-md-11 pt-3" id="dashboard">
       <router-outlet></router-outlet>
     </div>
   </div>
