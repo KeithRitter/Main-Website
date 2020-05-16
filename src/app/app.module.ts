@@ -3,8 +3,8 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { NavbarComponent } from './navbar/navbar.component';
-import { SidebarComponent } from './sidebar/sidebar.component';
+import { NavbarComponent } from './Sections/Section-Navigation/navbar/navbar.component';
+import { SidebarComponent } from './Sections/Section-Navigation/sidebar/sidebar.component';
 import { AboutMeComponent } from './about-me/about-me.component';
 
 @NgModule({
