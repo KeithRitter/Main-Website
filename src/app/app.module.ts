@@ -3,16 +3,16 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { NavbarComponent } from './Sections/Section-Navigation/navbar/navbar.component';
-import { SidebarComponent } from './Sections/Section-Navigation/sidebar/sidebar.component';
-import { AboutMeComponent } from './Sections/Section-About-Me/about-me.component';
+import { NavbarComponent } from './Sections/section-navigation/navbar/navbar.component';
+import { SidebarComponent } from './Sections/section-navigation/sidebar/sidebar.component';
+import { SectionAboutMainComponent } from './Sections/section-about-main/section-about-main.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     SidebarComponent,
-    AboutMeComponent
+    SectionAboutMainComponent
   ],
   imports: [
     BrowserModule,
