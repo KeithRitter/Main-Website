@@ -1,3 +1,27 @@
-.card-bottom{
-    height: 40vh!important;
+.card-deck {
+    padding: 0;
+}
+
+.picture {
+    background-image: url("../../../resources/me.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 20vh;
+    width: 20vh;
+    border: .25rem solid black !important;
+    border-radius: 2vh;
+}
+
+.selfie {
+    border: none;
+    box-shadow: none;
+    padding: 0 !important;
+}
+
+.name {
+    text-align: center, left;
+    font-family: 'Source Sans Pro', sans-serif !important;
+    font-size: 5em;
+    padding-top: 4vh;
 }

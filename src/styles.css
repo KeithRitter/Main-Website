@@ -39,17 +39,20 @@ a:hover{
 }
 
 .section-container {
-    padding: 30px;
     font-family: 'Source Sans Pro', sans-serif;
 }
 
+.card{
+    background-color: transparent;
+}
+
 .card-theme {
-    background-color: #121212!important;
     border: none;
     border-radius: 2px;
 }
 
 .card-heading-theme {
+    background-color: #121212;
     color: #eee;
     border-top-right-radius: 8px;
     border-top-left-radius: 8px;
@@ -58,7 +61,7 @@ a:hover{
 }
 
 .card-body-theme {
-    background-color: #494f56;
+    background-color: #121212f1!important;
 }
 
 .cards {
@@ -83,4 +86,8 @@ a:hover{
 
 .container {
     justify-content: space-between;
+}
+
+.ptabout {
+    padding-top: 10vh;
 }
