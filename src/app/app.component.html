@@ -1,14 +1,13 @@
+<div>
 <app-navbar id="navbar" 
-  class="navbar navbar-dark fixed-top bg-dark">
-</app-navbar>
+  class="navbar navbar-dark fixed-top bg-dark"></app-navbar>
+</div>
 
-<div class="container-fluid">
-  <div class="row" id="mainContent">
-    <app-sidebar id="sidebar" class="col-auto d-none d-sm-block sidebar">
-    </app-sidebar>
-
-    <div class="col-sm-auto ml-sm-auto col-md-11 pt-3" id="dashboard">
+<div class="row">
+  <app-sidebar id="sidebar" class="col-auto d-none d-sm-block sidebar"></app-sidebar>
+  <div class="container">
+    <div class="col-10 ml-auto mr-auto pt-3" id="dashboard">
       <router-outlet></router-outlet>
-    </div>
+  </div>
   </div>
 </div>

@@ -1,8 +1,7 @@
 #sidebar {
     height: 100vh;
     padding-top: 80px;
-    padding-right: 3.5vh;
-    position: fixed;
+    position: static;
     background-color: #121212;
 }
 

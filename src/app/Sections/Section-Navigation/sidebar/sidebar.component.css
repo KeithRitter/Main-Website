@@ -2,10 +2,9 @@ li {
     font-size: 1.8vh!important;
     max-width: 100%;
     word-wrap: break-word;
-    margin: .25vh;
+    padding:0 2vh;
 }
 
-.side-a:hover {
-    background-color: #542eff67;
-    border-radius: 4px;
+li:hover {
+    background-color: #0a1b35;
 }
