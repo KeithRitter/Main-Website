@@ -4,7 +4,6 @@
 
 html {
     height: 100%;
-    font-family: 'Source Sans Pro', sans-serif;
 }
 
 body {
@@ -20,14 +19,12 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    font-family: 'Source Sans Pro', sans-serif;
-    overflow: hidden;
+    font-family: 'Merriweather', serif !important;
 }
 
 a {
     color: #ffff;
     font-size: 2vh;
-    font-family: 'Source Sans Pro', sans-serif !important;
 }
 
 a:hover{
@@ -36,10 +33,6 @@ a:hover{
 
 .shadow {
     box-shadow: 0 8px 12px rgba(0,0,0,0.3), 0 5px 6px rgba(0,0,0,0.5)!important;
-}
-
-.section-container {
-    font-family: 'Source Sans Pro', sans-serif;
 }
 
 .card{
@@ -57,15 +50,10 @@ a:hover{
     border-top-right-radius: 8px;
     border-top-left-radius: 8px;
     padding: 12px;
-    font-family: 'Source Sans Pro', sans-serif;
 }
 
 .card-body-theme {
     background-color: #121212f1!important;
-}
-
-.cards {
-    font-family: 'Source Sans Pro', sans-serif;
 }
 
 .ul {
