@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+declare var $: any;
 
 @Component({
   selector: 'app-navbar',
@@ -12,6 +13,13 @@ export class NavbarComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    $(document).ready(function () {
+
+      $('.first-button').on('click', function () {
+          console.log("handler fired");
+        $('.animated-icon1').toggleClass('open');
+      });
+      });
   }
 
 }
