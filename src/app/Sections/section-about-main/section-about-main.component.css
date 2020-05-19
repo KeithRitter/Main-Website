@@ -3,7 +3,7 @@
 }
 
 .picture {
-    background-image: url("../../../resources/me.jpg");
+    background-image: url("../../../assets/resources/me.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

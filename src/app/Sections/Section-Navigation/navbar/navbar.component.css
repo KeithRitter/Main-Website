@@ -15,9 +15,13 @@
 }
 
 .logo-right{
-    padding: 3px 8px 3px 3px;
+    padding: 4px 8px 3px 3px;
     margin-left: 3px;
     border-radius: 4px;
+}
+
+.logo-nav {
+    padding-left: 2vh;
 }
 
 .mobileNav {
@@ -26,4 +30,33 @@
     display: none;
     margin-left: 1vh;
     margin-right: 3vh;
+}
+
+.navbar-toggler {
+    color: rgba(255,255,255,1) !important;
+    border: none !important;
+    margin-left: 1vh;
+}
+
+.navbar-toggler:focus {
+    color: rgba(255,255,255,1) !important;
+    border: none !important;
+    outline: none !important;
+}
+
+.navbar-toggler-icon {
+    display: inline-block !important;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.nav-link:hover {
+    text-decoration: underline !important;
+}
+
+.dropdown-icon {
+    height: 3vh !important;
+    margin-bottom: .5vh;
 }
