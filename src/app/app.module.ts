@@ -8,13 +8,15 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './Sections/section-navigation/navbar/navbar.component';
 import { SidebarComponent } from './Sections/section-navigation/sidebar/sidebar.component';
 import { SectionAboutMainComponent } from './Sections/section-about-main/section-about-main.component';
+import { SectionProjectsComponent } from './Sections/section-projects/section-projects.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     SidebarComponent,
-    SectionAboutMainComponent
+    SectionAboutMainComponent,
+    SectionProjectsComponent
   ],
   imports: [
     BrowserModule,

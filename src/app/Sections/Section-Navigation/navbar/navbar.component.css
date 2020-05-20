@@ -48,6 +48,7 @@
 
 .nav-link {
     color: white !important;
+    padding-left: 1.4vh;
 }
 
 .nav-link:hover {
@@ -62,6 +63,10 @@
 
 .navbar-brand {
     padding-bottom: 0 !important;
+}
+
+.home-a {
+    text-decoration: none !important;
 }
 
 /* Icon 1 */
