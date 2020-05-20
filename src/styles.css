@@ -78,3 +78,7 @@ a:hover{
 .ptabout {
     padding-top: 10vh;
 }
+
+.card-columns {
+    column-count: 3;
+}

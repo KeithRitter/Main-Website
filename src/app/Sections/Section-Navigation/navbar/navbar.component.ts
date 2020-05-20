@@ -16,10 +16,9 @@ export class NavbarComponent implements OnInit {
     $(document).ready(function () {
 
       $('.first-button').on('click', function () {
-          console.log("handler fired");
         $('.animated-icon1').toggleClass('open');
       });
-      });
+    });
   }
 
 }
