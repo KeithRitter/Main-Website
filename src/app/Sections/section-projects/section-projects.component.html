@@ -1,5 +1,9 @@
 <div class="projects">
-  <div id="carouselControls" class="carousel slide" data-ride="carousel">
+  <div id="carousel" class="carousel slide" data-ride="carousel" data-interval="10000">
+    <ol class="carousel-indicators">
+      <li data-target="#carousel" data-slide-to="0" class="active"></li>
+      <li data-target="#carousel" data-slide-to="1"></li>
+    </ol>
     <div class="carousel-inner d-block w-100">
       <div class="carousel-item active">
         <div class="card-deck">
@@ -46,10 +50,13 @@
       <div class="carousel-item">
         <div class="card-deck">
           <div class="card shadow card-theme card-bottom" style="width: 18rem;">
-            <img class="card-img-top" src="" alt="Card image cap">
+            <img class="card-img-top" src="assets\resources\thiswebsite.png" alt="Card image cap">
             <div class="card-body card-body-theme">
               <h5 class="card-title">Project D</h5>
               <p class="card-text">
+                This is not my first website, however this is one of my longest projects. I have built this website using
+                Angular as the frontend framework, where as my first website had no framework. This projects purpose was to help
+                expand my knowledge of web development, and also sharpen my skills.
               </p>
             </div>
             <div class="card-footer card-body-theme text-center">
@@ -70,7 +77,7 @@
             </div>
           </div>
           <div class="card shadow card-theme card-bottom">
-            <img class="card-img-top" src="" alt="Card image cap">
+            <img class="card-img-top" src="assets\resources\miniprojects.png" alt="Card image cap">
             <div class="card-body card-body-theme">
               <h5 class="card-title">Project F</h5>
               <p class="card-text">
@@ -83,15 +90,6 @@
         </div>
       </div>
     </div>
-
-    <a class="carousel-control-prev" href="#carouselControls" role="button" data-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#carouselControls" role="button" data-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
 
   </div>
 </div>
